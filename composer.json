@@ -1,0 +1,12 @@
+{
+    "name": "swissengine/zf2-skeleton",
+    "description": "SwissEngine",
+    "keywords": [
+        "swissengine"
+    ],
+    "homepage": "http://www.swissengine.ch/",
+    "require": {
+        "php": ">=5.5",
+        "zendframework/zendframework": "2.3.*"
+    }
+}
