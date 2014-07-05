@@ -7,6 +7,6 @@
     "homepage": "http://www.swissengine.ch/",
     "require": {
         "php": ">=5.5",
-        "zendframework/zendframework": "2.3.*"
+        "zendframework/zendframework": "2.*"
     }
 }
