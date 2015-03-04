@@ -3,6 +3,7 @@ namespace Core;
 
 use Core\Controller;
 use Core\Factory;
+use ReflectionClass;
 use Zend\Mvc\Router\Http;
 
 return [
