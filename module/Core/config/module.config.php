@@ -1,4 +1,6 @@
 <?php
+namespace Core;
+
 use Core\Controller;
 use Zend\Mvc\Router\Http;
 
