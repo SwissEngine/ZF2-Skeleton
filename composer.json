@@ -5,6 +5,9 @@
         "swissengine"
     ],
     "homepage": "http://www.swissengine.ch/",
+    "autoload": {
+        "Core\\", "module/Core/src"
+    }
     "require": {
         "php": ">=5.5",
         "zendframework/zendframework": "2.*"
