@@ -2,6 +2,7 @@
 namespace Core;
 
 use Core\Controller;
+use Core\Factory;
 use Zend\Mvc\Router\Http;
 
 return [
@@ -35,6 +36,21 @@ return [
             ],
         ],
     ],
+    'console' => [
+        'router' => [
+            'routes' => [
+                'index' => [
+                    'options' => [
+                        'route' => 'index',
+                        'defaults' => [
+                            'controller' => Controller\IndexController::class,
+                            'action'     => 'index'
+                        ],
+                    ],
+                ],
+            ],
+        ],
+    ],
     'service_manager' => [
         'aliases' => [
             'translator' => 'MvcTranslator',
@@ -52,7 +68,7 @@ return [
     ],
     'controllers' => [
         'factories' => [
-            Core\Controller\IndexController::class => Core\Factory\Controller\IndexControllerFactory::class
+            Controller\IndexController::class => Factory\Controller\IndexControllerFactory::class
         ],
     ],
     'view_manager' => [
