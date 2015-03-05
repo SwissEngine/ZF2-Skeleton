@@ -6,7 +6,9 @@
     ],
     "homepage": "http://www.swissengine.ch/",
     "autoload": {
-        "Core\\": "module/Core/src"
+        "psr-4": {
+            "Core\\": "module/Core/src"
+	}
     },
     "require": {
         "php": ">=5.5",
