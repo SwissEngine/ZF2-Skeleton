@@ -87,5 +87,8 @@ return [
         'template_path_stack' => [
             __DIR__ . '/../view',
         ],
+        'controller_map' => [
+            __NAMESPACE__ => 'core'    
+        ]
     ],
 ];
